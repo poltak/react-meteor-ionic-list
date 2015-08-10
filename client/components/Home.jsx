@@ -1,4 +1,5 @@
 Home = React.createClass({
+
   mixins: [ReactMeteorData],
 
   getMeteorData() {

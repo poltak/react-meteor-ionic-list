@@ -1,4 +1,5 @@
 Other = React.createClass({
+
   mixins: [ReactMeteorData],
 
   getMeteorData() {
@@ -12,4 +13,5 @@ Other = React.createClass({
       <h1>Other</h1>
     );
   },
+
 });

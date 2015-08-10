@@ -1,4 +1,5 @@
 Settings = React.createClass({
+
   mixins: [ReactMeteorData],
 
   getMeteorData() {
@@ -15,4 +16,5 @@ Settings = React.createClass({
       </div>
     );
   },
+
 });

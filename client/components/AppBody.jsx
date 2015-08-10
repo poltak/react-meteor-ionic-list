@@ -1,4 +1,3 @@
-
 AppBody = React.createClass({
 
   mixins: [ReactMeteorData],
@@ -32,6 +31,5 @@ AppBody = React.createClass({
       </div>
     );
   },
-
 
 });

@@ -1,4 +1,5 @@
 AppNotFound = React.createClass({
+
   mixins: [ReactMeteorData],
 
   getMeteorData() {
@@ -12,4 +13,5 @@ AppNotFound = React.createClass({
       <h1>Not Found</h1>
     );
   },
+
 });

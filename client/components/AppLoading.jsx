@@ -1,4 +1,5 @@
 AppLoading = React.createClass({
+
   mixins: [ReactMeteorData],
 
   getMeteorData() {
@@ -12,4 +13,5 @@ AppLoading = React.createClass({
       <h1>Loading...</h1>
     );
   },
+
 });
