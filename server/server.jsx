@@ -9,7 +9,7 @@ if (Meteor.users.find().count() === 0) {
 }
 
 if (MyData.find().count() === 0) {
-  _.each(_.range(25), function() {
+  _.each(_.range(25), () => {
     MyData.insert({
       name:   faker.name.findName(),
       email:  faker.internet.email(),
